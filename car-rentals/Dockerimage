@@ -1,0 +1,4 @@
+FROM alpine:3.17
+COPY ./code/ /usr/local/bin/
+
+EXPOSE 80
